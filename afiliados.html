@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja NewGame - Afiliados</title>
+    <link rel="stylesheet" href="loja.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>NewGame</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="loja.html">loja</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Afiliados</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Afiliados -->
+    <section id="affiliates">
+        <div class="container">
+            <h2>Seja um Afiliado do NewGame</h2>
+            <p>Ganhe comissões por cada venda realizada através do seu link de afiliado. Cadastre-se agora e comece a ganhar!</p>
+
+            <!-- Formulário de Cadastro de Afiliados -->
+            <div id="affiliate-form">
+                <h3>Cadastro para Afiliados</h3>
+                <form id="affiliate-registration-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="username">Nome de Usuário:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+
+            <!-- Informações sobre o Programa de Afiliados -->
+            <div id="affiliate-info">
+                <h3>Como Funciona o Programa</h3>
+                <p>Como afiliado, você pode compartilhar links para produtos da nossa loja. A cada compra realizada através do seu link, você recebe uma comissão.</p>
+                <p>Comissões variam de 5% a 15% dependendo do produto e volume de vendas.</p>
+                <p>O programa é simples e ideal para quem deseja iniciar um negócio digital sem necessidade de estoque ou logística.</p>
+            </div>
+
+            <!-- Área de Ganhos dos Afiliados -->
+            <div id="affiliate-earnings">
+                <h3>Meus Ganhos</h3>
+                <p>Seu link de afiliado gerou <span id="affiliate-commission">R$ 0,00</span> em comissões até agora.</p>
+                <button onclick="updateEarnings()">Ver mais detalhes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 NewGame. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="loja.js"></script>
+</body>
+</html>

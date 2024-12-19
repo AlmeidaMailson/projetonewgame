@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - NewGame</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+    <div class="cadastro-container">
+        <!-- Cabeçalho do Cadastro -->
+        <div class="cadastro-header">
+            <img src="Imagens/Logo.png" alt="Logo NewGame" class="logo">
+            <h1>Crie sua conta na NewGame</h1>
+            <p>Faça parte da nossa comunidade e aproveite todos os benefícios!</p>
+        </div>
+
+        <!-- Formulário de Cadastro -->
+        <form class="cadastro-form" id="cadastro-formulario">
+            <div class="input-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Crie uma senha" required>
+            </div>
+
+            <div class="input-group">
+                <label for="confirmar-senha">Confirmar Senha</label>
+                <input type="password" id="confirmar-senha" placeholder="Confirme sua senha" required>
+            </div>
+
+            <button type="submit" class="cadastro-btn">Cadastrar</button>
+        </form>
+
+        <!-- Mensagem de Login -->
+        <div class="cadastro-links">
+            <p>Já possui uma conta? <a href="per">Faça login</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 NewGame. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="perfil.js"></script>
+</body>
+</html>

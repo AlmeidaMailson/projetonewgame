@@ -1,0 +1,276 @@
+/* Estilo Geral */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: linear-gradient(135deg, #1C1C8C, #FF7F00);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+/* Container do Login */
+.login-container {
+    background-color: #1C1C8C;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    animation: slideIn 0.8s ease-in-out;
+}
+
+/* Logo e Texto do Header */
+.login-header img.logo {
+    width: 100px;
+    margin-bottom: 20px;
+    animation: pulse 2s infinite;
+}
+
+.login-header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+/* Formulário de Login */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #f4f4f9;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão de Login */
+.login-btn {
+    background-color: #FF7F00;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #e06c00;
+    transform: translateY(-2px);
+}
+
+.login-btn:active {
+    transform: translateY(1px);
+}
+
+/* Links Adicionais */
+.login-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.login-links a {
+    text-decoration: none;
+    color: #FF7F00;
+    transition: color 0.3s ease;
+}
+
+.login-links a:hover {
+    color: #e06c00;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #f4f4f9;
+    font-size: 14px;
+}
+
+/* Animações */
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Estilo Geral */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: linear-gradient(135deg, #1C1C8C, #FF7F00);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+/* Container de Cadastro */
+.cadastro-container {
+    background-color: #1C1C8C;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Cabeçalho */
+.cadastro-header img.logo {
+    width: 100px;
+    margin-bottom: 20px;
+    animation: pulse 2s infinite;
+}
+
+.cadastro-header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cadastro-header p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+/* Formulário */
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #f4f4f9;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão de Cadastro */
+.cadastro-btn {
+    background-color: #FF7F00;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cadastro-btn:hover {
+    background-color: #e06c00;
+    transform: translateY(-2px);
+}
+
+.cadastro-btn:active {
+    transform: translateY(1px);
+}
+
+/* Links Adicionais */
+.cadastro-links {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.cadastro-links a {
+    text-decoration: none;
+    color: #FF7F00;
+    transition: color 0.3s ease;
+}
+
+.cadastro-links a:hover {
+    color: #e06c00;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #f4f4f9;
+    font-size: 14px;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
